@@ -32,10 +32,10 @@ Install these tools before starting.
 
 Official Documentation:
 
-- [Docker Desktop](https://www.docker.com/products/docker-desktop/?utm_source=chatgpt.com)
-- [kubectl Install Guide](https://kubernetes.io/docs/tasks/tools/?utm_source=chatgpt.com)
-- [Minikube](https://minikube.sigs.k8s.io/docs/start/?utm_source=chatgpt.com)
-- [Node.js](https://nodejs.org/?utm_source=chatgpt.com)
+- [Docker Desktop](https://www.docker.com/products/docker-desktop/)
+- [kubectl Install Guide](https://kubernetes.io/docs/tasks/tools/)
+- [Minikube](https://minikube.sigs.k8s.io/docs/start/)
+- [Node.js](https://nodejs.org/)
 
 # Step 1: Start Kubernetes Cluster
 
@@ -542,6 +542,6 @@ image: YOUR_USERNAME/k8s-demo:v1
 
 # Useful Resources
 
-- [Kubernetes Official Docs](https://kubernetes.io/docs/home/?utm_source=chatgpt.com)
-- [Docker Documentation](https://docs.docker.com/?utm_source=chatgpt.com)
-- [Minikube Documentation](https://minikube.sigs.k8s.io/docs/?utm_source=chatgpt.com)
+- [Kubernetes Official Docs](https://kubernetes.io/docs/home/)
+- [Docker Documentation](https://docs.docker.com/)
+- [Minikube Documentation](https://minikube.sigs.k8s.io/docs/)

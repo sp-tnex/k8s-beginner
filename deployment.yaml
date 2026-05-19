@@ -17,8 +17,7 @@ spec:
     spec:
       containers:
         - name: k8s-demo
-          image: k8s-demo:v1
-          imagePullPolicy: Never
+          image: satyaprak/k8s-demo:v1
 
           ports:
             - containerPort: 3000
