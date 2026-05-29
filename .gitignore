@@ -7,18 +7,77 @@ yarn-error.log*
 pnpm-debug.log*
 lerna-debug.log*
 
-node_modules
-dist
-dist-ssr
-*.local
+# Node.js
+node_modules/
+dist/
+dist-ssr/
+build/
+coverage/
+.nyc_output/
 
-# Editor directories and files
+*.local
+.env
+.env.*
+!.env.example
+
+# Docker
+.dockerignore
+docker-compose.override.yml
+
+# Temporary docker files
+*.pid
+*.seed
+*.pid.lock
+
+# Kubernetes
+*.kubeconfig
+kubeconfig*
+.kube/
+
+# Helm
+charts/*.tgz
+*.release
+
+# K8s secrets/manifests generated locally
+secrets.yaml
+secret.yaml
+
+# Terraform
+.terraform/
+*.tfstate
+*.tfstate.*
+crash.log
+crash.*.log
+
+# Sensitive variable files
+*.tfvars
+*.tfvars.json
+
+# Override files
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+
+# Terraform CLI config
+.terraformrc
+terraform.rc
+
+# Editor / IDE
 .vscode/*
 !.vscode/extensions.json
-.idea
+
+.idea/
+*.iml
+
+# OS files
 .DS_Store
-*.suo
-*.ntvs*
-*.njsproj
-*.sln
-*.sw?
+Thumbs.db
+
+# TypeScript
+*.tsbuildinfo
+
+# Misc
+.tmp/
+temp/
+.cache/
